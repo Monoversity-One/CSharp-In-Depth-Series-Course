@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_10.Object_OrientedProgramming</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Remove="**\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="08.Interfaces\_01_Interface.cs" />
+    <Compile Include="08.Interfaces\_02_IActivity.cs" />
+    <Compile Include="08.Interfaces\_03_ICustomerDal.cs" />
+    <Compile Include="08.Interfaces\_04_IPaymentDemo.cs" />
+    <Compile Include="08.Interfaces\_05_FirstActivity.cs" />
+    <Compile Include="08.Interfaces\_06_SecondActivity.cs" />
+    <Compile Include="08.Interfaces\_07_Workflow.cs" />
+    <Compile Include="08.Interfaces\_08_WorkflowEngine.cs" />
+    <Compile Include="09.NamespacesAndOrganization\_01_NameSpaces.cs" />
+    <Compile Include="99.Examples\_03_Animals\Animal.cs" />
+    <Compile Include="99.Examples\_03_Animals\Dog.cs" />
+    <Compile Include="99.Examples\_03_CarsExample_Full.cs" />
+    <Compile Include="99.Examples\_04_Blog\ImagePost.cs" />
+    <Compile Include="99.Examples\_04_Blog\Post.cs" />
+    <Compile Include="99.Examples\_04_Blog\VideoPost.cs" />
+    <Compile Include="99.Examples\_04_CustomerManager.cs" />
+    <Compile Include="99.Examples\_05_Company\Boss.cs" />
+    <Compile Include="99.Examples\_05_Company\Employee.cs" />
+    <Compile Include="99.Examples\_05_Company\Trainee.cs" />
+    <Compile Include="99.Examples\_05_Post.cs" />
+    <Compile Include="99.Examples\_06_ElectricalDevices\ElectricalDevice.cs" />
+    <Compile Include="99.Examples\_06_ElectricalDevices\Radio.cs" />
+    <Compile Include="99.Examples\_06_ElectricalDevices\TV.cs" />
+    <Compile Include="99.Examples\_06_Stack.cs" />
+    <Compile Include="99.Examples\_07_SimpleTicketingSystem\Process.cs" />
+    <Compile Include="99.Examples\_07_SimpleTicketingSystem\Receptionist.cs" />
+    <Compile Include="99.Examples\_07_SimpleTicketingSystem\Ticket.cs" />
+    <Compile Include="99.Examples\_07_Stopwatch.cs" />
+    <Compile Include="99.Examples\_08_Game\Car.cs" />
+    <Compile Include="99.Examples\_08_Game\Chair.cs" />
+    <Compile Include="99.Examples\_08_Game\Furniture.cs" />
+    <Compile Include="99.Examples\_08_Game\IDestroyable.cs" />
+    <Compile Include="99.Examples\_08_Game\Vehicle.cs" />
+    <Compile Include="99.Examples\_08_Writer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="01.TypesAndClasses\**\*.cs" />
+    <Compile Include="02.ConstructorsAndDestructors\**\*.cs" />
+    <Compile Include="03.FieldsAndProperties\**\*.cs" />
+    <Compile Include="04.AccessModifiers\**\*.cs" />
+    <Compile Include="05.Encapsulation\**\*.cs" />
+    <Compile Include="06.Inheritance\**\*.cs" />
+    <Compile Include="07.Polymorphism\**\*.cs" />
+    <Compile Include="08.VirtualAndOverride\**\*.cs" />
+    <Compile Include="09.Interfaces\**\*.cs" />
+    <Compile Include="10.Generics\**\*.cs" />
+    <Compile Include="11.NamespacesAndOrganization\**\*.cs" />
+    <Compile Include="12.TypesAndVariables\**\*.cs" />
+    <!-- Include only required shared examples -->
+    <Compile Include="99.Examples\_01_BankAccount.cs" />
+    <Compile Include="99.Examples\_02_Person.cs" />
+    <!-- AccessModifiers sample included (local Course model provided) -->
+  </ItemGroup>
+
+</Project>

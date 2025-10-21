@@ -1,0 +1,157 @@
+﻿Object-Oriented Programming (OOP)
+=================================
+
+Basic Concepts
+--------------
+
+- Class: A blueprint or category of objects. It defines common properties and behaviors.
+- Object: A specific instance of a class.
+- Method: A function defined inside a class.
+- Property: A member that provides a flexible mechanism to read, write, or compute the value of private fields (get/set accessors).
+
+Example:
+--------
+
+                  Vehicle (class)
+                       |
+                       |
+        ---------------------------------
+        |                               |
+Wheeled Vehicles (subclass)    Non-Wheeled Vehicles (subclass)
+        |
+        |
+  BMW X4 Black (object)
+
+
+Pillars of OOP
+--------------
+
+1. Inheritance:
+   - Creating a new class by extending an existing class.
+
+2. Encapsulation:
+   - Binding data and methods that operate on the data into one unit (class).
+   - Protects the internal state of the object.
+
+3. Polymorphism:
+   - An object or function can take many forms.
+   - Enables method overloading and overriding.
+
+4. Abstraction:
+   - Hides internal implementation details and shows only essential features.
+
+
+Encapsulation: Access Modifiers
+-------------------------------
+
+- Public: No restriction.
+- Protected: Accessible within the class and its subclasses.
+- Private: Accessible only within the class.
+- Internal: Accessible within the same assembly.
+- Protected Internal: Accessible within the same assembly or derived classes.
+
+
+Polymorphism
+------------
+
+- Static (Compile-time): Method overloading.
+- Dynamic (Run-time): Method overriding — allows a child class to change parent behavior.
+
+
+Abstraction
+-----------
+
+- A concept or an idea not tied to any specific instance.
+- Focuses on "what" an object does, not "how" it does it.
+
+
+Classes
+-------
+
+- sealed: Cannot be inherited.
+- static: Cannot be instantiated.
+- partial: Allows splitting a class across multiple files.
+
+
+Structs
+-------
+
+- Similar to classes but are value types (not reference types).
+
+
+Class vs Struct
+---------------
+
+- Classes can be inherited; structs cannot.
+- Classes are reference types; structs are value types.
+- Classes can have user-defined constructors; structs cannot (parameterless only).
+
+
+Interfaces
+----------
+
+- Define functionality without implementation.
+- Similar to abstract classes but more flexible.
+
+
+Interface vs Abstract Class
+---------------------------
+
+- Both cannot be instantiated directly.
+- Both require implementation of members.
+- Both can have events, methods, and properties.
+
+Differences:
+- Interfaces cannot contain implementation.
+- Interfaces support multiple inheritance.
+- Interfaces do not allow access modifiers (all members are public).
+- Interfaces cannot contain variables.
+
+
+Namespace
+---------
+
+- A container for classes to organize code.
+- Example: System, System.Linq, etc.
+
+
+Relationships in OOP
+--------------------
+
+Has-A Relationship:
+- Uses inner classes or object composition.
+
+Is-A Relationship:
+- Uses inheritance (subclassing).
+
+
+Association
+-----------
+
+- Relationship between two independent objects.
+- Defined as "uses-a" or "is-related-to".
+- Each object has its own life-cycle and actions.
+
+
+Aggregation
+-----------
+
+- Specialized form of association.
+- Defined as a "has-a" relationship.
+- Both objects have independent life-cycles.
+- One object owns the other, but destruction of one doesn’t affect the other.
+
+
+Composition
+-----------
+
+- Specialized form of aggregation.
+- Defined as a "part-of" relationship.
+- Child object’s life-cycle depends on the parent.
+- If the parent is destroyed, the child is destroyed too.
+
+
+Notes:
+------
+
+- When a base (parent) class is destroyed, the derived (child) class is also destroyed if composition is used.

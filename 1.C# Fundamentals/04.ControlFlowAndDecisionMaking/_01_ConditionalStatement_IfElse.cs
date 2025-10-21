@@ -1,0 +1,74 @@
+﻿namespace _04.ControlFlowAndDecisionMaking
+{
+    public class _01_ConditionalStatement_IfElse
+    {
+        void SimpleMethod()
+        {
+            int x = 4;
+            int y = 5;
+            string result = "";
+
+            //if(condition)
+            //{
+            //  if condition is true
+            //}
+
+            //if(condition)
+            //{
+            //  if condition is true
+            //}
+            //else
+            //{
+            //  if condition is flase
+            //}
+
+
+            //if(condition1)
+            //{
+            //  if condition1 is true
+            //}
+            //else if(condition2)
+            //{
+            //  if condition1 is false and condition2 is true
+            //}
+            //...
+            //else
+            //{
+            //  if all of the conditions are false 
+            //}
+
+            if (x < y)
+            {
+                result = $"{x} is smaller than {y}.";
+            }
+            else if (x > y)
+            {
+                result = $"{x} is bigger than {y}.";
+            }
+            else
+            {
+                result = $"{x} is equal to {y}.";
+            }
+
+
+            //Nested if-else statements
+            int a = 2;
+            string strResult;
+            if (a > 0)
+            {
+                if (a == 2)
+                {
+                    strResult = "a is equal 2.";
+                }
+                else
+                {
+                    strResult = "a is not equal 2.";
+                }
+            }
+            else
+            {
+                strResult = "a is smaller than 0.";
+            }
+        }
+    }
+}
