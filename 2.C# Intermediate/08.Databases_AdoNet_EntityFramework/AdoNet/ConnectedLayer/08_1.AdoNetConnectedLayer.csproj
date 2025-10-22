@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <RootNamespace>_08_1.AdoNetConnectedLayer</RootNamespace>
+    <AssemblyName>_08_1.AdoNetConnectedLayer</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+</Project>
