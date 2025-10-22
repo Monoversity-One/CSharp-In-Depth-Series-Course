@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\1.Projects\\1.Proprietary\\2.MonoLearn-Legacy\\2.Courses\\2.C# In-Depth Series____\\2.C# Intermediate\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\1.Projects\\1.Proprietary\\2.MonoLearn-Legacy\\2.Courses\\CSharp-In-Depth-Series-Course\\2.C# Intermediate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A85AB657-9F0C-34A2-01CA-1349189BAAC9}|09.WindowsFormsDevelopment\\09.WindowsFormsDevelopment.csproj|d:\\1.projects\\1.proprietary\\2.monolearn-legacy\\2.courses\\csharp-in-depth-series-course\\2.c# intermediate\\09.windowsformsdevelopment\\09.windowsformsdevelopment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A85AB657-9F0C-34A2-01CA-1349189BAAC9}|09.WindowsFormsDevelopment\\09.WindowsFormsDevelopment.csproj|solutionrelative:09.windowsformsdevelopment\\09.windowsformsdevelopment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "09.WindowsFormsDevelopment",
+              "DocumentMoniker": "D:\\1.Projects\\1.Proprietary\\2.MonoLearn-Legacy\\2.Courses\\CSharp-In-Depth-Series-Course\\2.C# Intermediate\\09.WindowsFormsDevelopment\\09.WindowsFormsDevelopment.csproj",
+              "RelativeDocumentMoniker": "09.WindowsFormsDevelopment\\09.WindowsFormsDevelopment.csproj",
+              "ToolTip": "D:\\1.Projects\\1.Proprietary\\2.MonoLearn-Legacy\\2.Courses\\CSharp-In-Depth-Series-Course\\2.C# Intermediate\\09.WindowsFormsDevelopment\\09.WindowsFormsDevelopment.csproj",
+              "RelativeToolTip": "09.WindowsFormsDevelopment\\09.WindowsFormsDevelopment.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-22T10:27:45.367Z",
+              "EditorCaption": ""
             }
           ]
         }

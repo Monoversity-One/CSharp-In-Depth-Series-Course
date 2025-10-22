@@ -1,0 +1,13 @@
+﻿Attribute
+---------
+
+Provides a powerful way to associate metadata or declarative information  
+with code elements such as assemblies, types, methods, properties, etc.
+
+---
+
+Reflection
+----------
+
+Allows access to assembly and attribute information at runtime.  
+Enables inspection of metadata, types, methods, and properties dynamically.
